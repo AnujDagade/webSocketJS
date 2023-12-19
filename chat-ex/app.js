@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://upgraded-giggle-g7jv95j9rvx3pp9q-8080.app.github.dev/');
+const socket = new WebSocket('wss://upgraded-giggle-g7jv95j9rvx3pp9q-8080.app.github.dev/');
 const list = document.querySelector('ul');
 
 socket.onmessage = ({data}) => {
